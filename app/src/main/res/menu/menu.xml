@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/afilme"
+                    android:checked="true"
+                    android:icon="@drawable/ic_baseline_movie"
+                    android:title="Filme" />
+                <item
+                    android:id="@+id/aserie"
+                    android:icon="@drawable/ic_baseline_play_arrow"
+                    android:title="Series" />
+                <item
+                    android:id="@+id/afavorito"
+                    android:icon="@drawable/ic_favorite"
+                    android:title="Favotiro" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Configuração">
+            <menu>
+                <item
+                    android:id="@+id/aconfig"
+                    android:icon="@drawable/ic_baseline_settings"
+                    android:title="Configuração" />
+                <item
+                    android:id="@+id/adownload"
+                    android:icon="@drawable/ic_download"
+                    android:title="Download" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
